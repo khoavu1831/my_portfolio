@@ -257,7 +257,7 @@
  /*-----------------------------------*\ #SIDEBAR \*-----------------------------------*/
  .sidebar {
    margin-bottom: 15px;
-   max-height: 148px;
+   max-height: 108px;
    overflow: hidden;
    transition: var(--transition-2);
  }
@@ -273,6 +273,9 @@
  }
  .avatar-box {
    background: var(--bg-gradient-onyx);
+   border-radius: 20px;
+ }
+ .avatar-box img {
    border-radius: 20px;
  }
  .info-content .name {
@@ -1080,6 +1083,7 @@
  
    .avatar-box img {
      width: 85px;
+     border-radius: 20px;
    }
  }
  /* responsive larger than 580px screen */
@@ -1123,7 +1127,7 @@
    }
    /* #SIDEBAR */
    .sidebar {
-     max-height: 180px;
+     max-height: 140px;
      margin-bottom: 30px;
    }
    .sidebar.active {
@@ -1137,6 +1141,7 @@
    }
    .avatar-box img {
      width: 85px;
+     border-radius: 20px;
    }
    .info-content .name {
      margin-bottom: 15px;
@@ -1386,6 +1391,7 @@
  
    .avatar-box img {
      width: 85px;
+     border-radius: 20px;
    }
  }
  /* responsive larger than 1024px screen */
@@ -1456,6 +1462,7 @@
  
    .avatar-box img {
      width: 85px;
+     border-radius: 20px;
    }
  }
  /* responsive larger than 1250px screen */
@@ -1517,6 +1524,7 @@
    }
    .avatar-box img {
      width: 85px;
+     border-radius: 20px;
    }
    .info-content .name {
      white-space: nowrap;
