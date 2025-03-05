@@ -262,7 +262,7 @@
    transition: var(--transition-2);
  }
  .sidebar.active {
-   max-height: 405px;
+   max-height: 500px;
  }
  .sidebar-info {
    position: relative;
@@ -941,11 +941,6 @@
    gap: 7px;
    margin-bottom: 10px;
  }
- .blog-meta :is(.blog-category, time) {
-   color: var(--light-gray-70);
-   font-size: var(--fs-6);
-   font-weight: var(--fw-300);
- }
  .blog-meta .dot {
    background: var(--light-gray-70);
    width: 4px;
@@ -1552,9 +1547,6 @@
    .separator:last-of-type {
      margin: 15px 0;
      opacity: 0;
-   }
-   .social-list {
-     justify-content: center;
    }
    /* RESUME */
    .timeline-text {
